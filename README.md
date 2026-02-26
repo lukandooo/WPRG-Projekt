@@ -1,30 +1,30 @@
-# Quizz-ly - Platforma Quizowa 🎓
+# Quizz-ly - Quiz Platform 🎓
 
-## O projekcie
-Projekt Quizz-ly został stworzony w ramach przedmiotu Warsztaty Programistyczne (WPRG) na II semestrze studiów. Aplikacja to w pełni funkcjonalna platforma internetowa umożliwiająca rozwiązywanie oraz tworzenie własnych zestawów pytań. 
+## About the Project
+The Quizz-ly project was developed as part of the Programming Workshops (WPRG) course during my 2nd semester of studies. The application is a fully functional web platform that allows users to take existing quizzes and create their own question sets.
 
-Projekt (oceniony na 73%) stanowi ważne podsumowanie moich początków z programowaniem webowym. Głównym założeniem było praktyczne wykorzystanie języka PHP do budowy logiki backendowej, autoryzacji opartej o sesje oraz sprawnego zarządzania systemem plików. Zamiast standardowej relacyjnej bazy danych, aplikacja przechowuje użytkowników, wyniki oraz treści quizów w systemie ustrukturyzowanych plików tekstowych.
+This project (graded at 73%) represents a significant milestone in my early web development journey. The primary goal was to practically apply PHP for backend logic, session-based authentication, and file system management. Instead of utilizing a standard relational database, the application stores user data, scores, and quiz content within a system of structured text files.
 
-## Funkcjonalności
-* **Rozwiązywanie quizów**: Użytkownicy mogą sprawdzać swoją wiedzę w kategoriach takich jak Popkultura, Sport, Geografia i Motoryzacja.
-* **Różnorodne typy pytań**: System obsługuje wpisywanie tekstu z klawiatury (text input), pytania jednokrotnego i wielokrotnego wyboru, a także zadania oparte na odgadywaniu obrazków (image guess).
-* **Zarządzanie użytkownikami**: Pełny system logowania i rejestracji (hasła są bezpiecznie hashowane za pomocą `password_hash()`) oraz możliwość wgrywania własnych zdjęć profilowych.
-* **Śledzenie wyników**: Każdy profil użytkownika monitoruje statystyki poprawnych odpowiedzi i przelicza skuteczność dla poszczególnych kategorii. Dostępna jest też opcja eksportu wyników do pliku tekstowego.
-* **Kreator quizów**: Zalogowani użytkownicy mogą dynamicznie dodawać własne quizy, układając pytania, wprowadzając opcje odpowiedzi i przesyłając obrazy z dysku.
+## Features
+* **Taking Quizzes**: Users can test their knowledge across various categories, including Pop Culture, Sports, Geography, and Automotive.
+* **Various Question Types**: The system supports text input, single-choice, multiple-choice, and image-based guessing (image guess).
+* **User Management**: A complete login and registration system (passwords are securely hashed using the `password_hash()` function), along with the ability to upload custom profile pictures.
+* **Score Tracking**: Each user profile monitors the statistics of correct answers and calculates the success rate for individual categories. There is also an option to export achievements to a text file.
+* **Quiz Creator**: Logged-in users can dynamically add their own quizzes by structuring questions, inputting answer options, and uploading images from their local drives.
 
-## Wykorzystane Technologie
-* **Backend**: PHP (sesje, obsługa żądań POST/GET, operacje I/O na plikach, weryfikacja plików uploadowanych na serwer).
+## Technologies Used
+* **Backend**: PHP (session management, POST/GET request handling, file I/O operations, server-side file upload verification).
 * **Frontend**: HTML5, CSS3.
-* **Baza Danych**: Projekt wykorzystuje pliki `.txt` jako bazę danych do przechowywania układu aplikacji i stanu (m.in. konfiguracje dla poszczególnych tabel quizów i użytkowników).
+* **Database**: The project utilizes `.txt` files as a lightweight database to store application data and state (e.g., configurations for quiz tables and users).
 
-## Jak uruchomić projekt lokalnie?
-1. Sklonuj repozytorium na swój komputer.
-2. Przenieś pobrany folder do odpowiedniego katalogu serwera obsługującego PHP (np. `htdocs` w środowisku XAMPP lub `www` dla WAMP).
-3. **Ważne:** Upewnij się, że Twój serwer ma uprawnienia do zapisu (odczyt/zapis) dla folderów `wyniki/`, `QUIZY/` oraz `zdjeciaProfilowe/`, ponieważ aplikacja dynamicznie generuje i zapisuje tam nowe pliki.
-4. Uruchom lokalny serwer i w przeglądarce wpisz: `http://localhost/nazwa_folderu_z_projektem/logowanie.php`.
+## How to Run the Project Locally
+1. Clone this repository to your local machine.
+2. Move the downloaded folder to the appropriate directory of your PHP-supporting server (e.g., `htdocs` in XAMPP or `www` in WAMP).
+3. **Important:** Ensure your local server has write permissions (read/write) for the `wyniki/`, `QUIZY/`, and `zdjeciaProfilowe/` directories, as the application dynamically generates and saves new files there.
+4. Start your local development server and navigate to: `http://localhost/your_project_folder_name/logowanie.php` in your browser.
 
-## Przemyślenia z perspektywy czasu (Możliwy kierunek rozwoju)
-Traktuję ten projekt jako ważny etap edukacyjny. Gdybym pisał tę aplikację ponownie dzisiaj, z moją obecną wiedzą, wprowadziłbym następujące zmiany:
-* Zastąpienie operacji na plikach tekstowych na rzecz pełnoprawnej relacyjnej bazy danych (np. MySQL / PostgreSQL).
-* Refaktoryzację kodu w oparciu o architekturę MVC (Model-View-Controller) w celu lepszego oddzielenia logiki biznesowej od warstwy prezentacji.
-* Wdrożenie zabezpieczeń przed atakami typu SQL Injection (w przypadku dodania bazy) oraz XSS, poprzez bardziej zaawansowaną walidację i sanityzację przesyłanych formularzy.
+## Retrospective & Future Development
+I consider this project an important educational stepping stone. If I were to rebuild this application today with my current knowledge, I would implement the following improvements:
+* **Database Migration**: Replacing text file operations with a fully-fledged relational database (e.g., MySQL or PostgreSQL).
+* **Architecture**: Refactoring the code using the MVC (Model-View-Controller) design pattern to better separate business logic from the presentation layer.
+* **Security**: Implementing advanced security measures against SQL Injection (upon adding a database) and XSS attacks through stricter validation and sanitization of form inputs.
