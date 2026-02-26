@@ -1,0 +1,15 @@
+1;1;single-choice;Ile jest dni w tygodniu?;5,6,7,8;x
+1;2;single-choice;Jeden dzień składa się z ilu godzin?;12,20,24,48;x
+1;3;single-choice;Jak nazywa się piąty miesiąc w roku?;Maj,Czerwiec,Lipiec,Sierpień;x
+2;1;single-choice;Kiedy zakończyła się druga wojna światowa?;1943,1944,1945,1946;x
+2;2;single-choice;Kiedy Polska odzyskała niepodległość?;1917,1918,1919,1920;x
+3;1;single-choice;Które zwierze jest najszybsze na świecie?;Lew,Kangur,Gepard,Koń;x
+3;2;single-choice;Ile dni ma rok przestępny?;360,364,365,366;x
+4;1;single-choice;Która planeta jest najbliżej słońca?;Wenus,Mars,Merkury,Ziemia;x
+4;2;single-choice;Który z tych kolorów nie występuje w tęczy?;Czerwony,Fioletowy,Niebieski,Różowy;x
+5;1;single-choice;Kto napisał Pana Tadeusza?;Bolesław Prus,Adam Mickiewicz,Juliusz Słowacki,Henryk Sienkiewicz;x
+5;2;single-choice;Ile to jest połowa z liczby 1000?;200,250,400,500;x
+6;1;single-choice;Które z tych zwierząt jest ssakiem?;Nietoperz,Żaba,Gołąb,Rekin;x
+6;2;single-choice;Co jest większe? Kilometr czy mila?;Kilometr,Mila,Obie są równe,Nie da się porównać;x
+7;1;single-choice;Ile nóg ma pająk?;6,8,10,12;x
+7;2;single-choice;Jakie warzywo płacze, gdy je kroisz?;Cebula,Marchewka,Kapusta,Czosnek;x

@@ -1,0 +1,32 @@
+Poradnik Baz danych
+
+--  ODPOWIEDZI --
+nazwa_quizu;numer_pytania;odpowiedź
+
+
+--  PYTANIA  --
+nazwa_quizu;numer_pytania;rodzaj_pytania;treść_pytania;odpowiedzi_pytania;image_path
+
+
+--  TREŚĆ --
+nazwa_quizu;opis
+
+
+-- ZDJĘCIA --
+nazwa_quizu+numer_pytania.png/jpg
+
+
+-- STATYSTYKI --
+poprawneOdpowiedziPopkultura;poprawneOdpowiedziGeografia;poprawneOdpowiedziSport;poprawneOdpowiedziMotoryzacja;poprawneOdpowiedziSuma
+liczbaPytańPopkultura;liczbaPytańGeografia;liczbaPytańSport;liczbaPytańMotoryzacja;liczbaPytańSuma
+
+
+\\ OGÓLNE UWAGI //
+1. Nazwa quizu jest unikatowa przez co niepotrzebny jest id
+2. wartości w PYTANIA -> odpowiedzi_pytania są roździelane przecinkiem (jeżeli występuje więcej niż jedna wartość)
+
+RODZAJE PYTAŃ:
+- TEXT INPUT
+- SINGLE CHOICE
+- MULTIPLE CHOICE
+- IMAGE GUESS

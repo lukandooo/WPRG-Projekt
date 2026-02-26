@@ -1,0 +1,7 @@
+NBA quiz;1;single-choice;Ile mistrzostw wygrał Jordan?;4,5,6,7;x
+NBA quiz;2;single-choice;W którym roku Lebron James dołączył do ligi?;2002,2003,2004,2005;x
+NBA quiz;3;single-choice;Ilu jest AKTUALNIE Polaków w NBA?;0,1,2,3;x
+Premier League quiz;1;single-choice;Która drużyna najwięcej zdobyła tytułów Premier League?;Liverpool,Manchester United,Arsenal,Chelsea;x
+Premier League quiz;2;single-choice;Który piłkarz zdobył najwięcej bramek w Premier League?;Harry Kane,Wayne Rooney,Segio Aguero,Alan Shearer;x
+Premier League quiz;3;image-guess;Jakiej narodowości jest Robin Van Persie?;Holandia,Belgia,Francja,Niemcy;QUIZY/sport/zdjęcia/Premier League quiz2.png
+NBA quiz;4;image-guess;Kto to jest?;Marcin Gortat,Stephen Curry,Draymond Green,Dennis Rodman;QUIZY/popkultura/zdjęcia/NBA quiz1.png

@@ -1,0 +1,7 @@
+Odgadnij Artystę!;1;Krzysztof Krawczyk
+Odgadnij Artystę!;2;74
+Odgadnij Artystę!;3;Jarosław Kaczyński,Robert Lewandowski
+Odgadnij Artystę!;4;Róże
+Ile ma lat?;1;1988
+Ile ma lat?;2;1945
+Ile ma lat?;3;Cezary Pazura,Andrzej Piaseczny

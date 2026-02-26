@@ -1,0 +1,3 @@
+Łukasz;Święcicki;swiecicki.luka@gmail.com;pbdh1234;$2y$10$dN2A/.EfjryysPBfOLVymOsdUHkzFQ8mE62fRkl0YMTKNhF/yuPJ.
+Ala;Kala;aaa@gmail.com;alixon;$2y$10$BiupyMb8KcIFO5EG43dTUeMCpn1FDOYZWXUwduw5ZAph97w9VaU9S
+Admin;Admin;admin@gmail.com;Admin;$2y$10$3SPYG9pPLaTrVzIvimtWpucs99SR8Moy0Te6m7h8fqivEl52jKy2S

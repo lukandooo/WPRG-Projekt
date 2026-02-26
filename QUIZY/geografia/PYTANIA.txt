@@ -1,0 +1,3 @@
+Zgadnij państwo za pomocą stolicy!;1;single-choice;Rzym;Włochy,Hiszpania,Anglia,Portugalia;x
+Zgadnij państwo za pomocą stolicy!;2;single-choice;Zagrzeb;Czarnogóra,Słowenia,Chorwacja,Serbia;x
+Zgadnij państwo za pomocą stolicy!;3;single-choice;Moskwa;Ukraina,Rosja,Białoruś,Estonia;x

@@ -1,0 +1,7 @@
+Odgadnij Artystę!;1;image-guess;Kto to jest?;Krzysztof Krawczyk,Malik Montana,Donald Tusk,Karol Nawrocki;QUIZY/popkultura/zdjęcia/Odgadnij Artystę!1.png
+Odgadnij Artystę!;2;single-choice;Ile lat miał Krzysztof Krawczyk?;74,77,80,84;x
+Odgadnij Artystę!;3;multiple-choice;Kto jest Polakiem?;Jarosław Kaczyński,Robert Lewandowski,Barack Obama,Lebron James;x
+Odgadnij Artystę!;4;text-input;XXXX z betonu! Dokończ!;;x
+Ile ma lat?;1;single-choice;W którym roku urodził się Robert Lewandowski?;1941,2005,2020,1988;x
+Ile ma lat?;2;single-choice;W którym roku urodziła się Maryla Rodowicz?;1678,1790,1865,1945;x
+Ile ma lat?;3;multiple-choice;Które osoby urodziły się w 1967?;Cezary Pazura,Tomasz Karolak,Rafał Trzaskowski,Andrzej Piaseczny;x

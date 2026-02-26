@@ -1,0 +1,7 @@
+NBA quiz;1;6
+NBA quiz;2;2003
+NBA quiz;3;1
+Premier League quiz;1;Manchester United
+Premier League quiz;2;Alan Shearer
+Premier League quiz;3;Holandia
+NBA quiz;4;Dennis Rodman

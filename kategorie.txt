@@ -1,0 +1,4 @@
+0;Popkultura;Sprawdź, jak dobrze znasz filmy, seriale, muzykę i gwiazdy! Quizy z popkultury to gratka dla fanów wszystkiego, co na topie!
+1;Sport;Masz sportowego ducha? Przesteuj swoją wiedzę o piłce nożnej, koszykówce i wielu innych dyscyplinach!
+2;Geografia;Od stolic po szczyty gór - geograficzne quizy zabiorą cię w podróż dookoła świata bez wychodzenia z domu!
+3;Motoryzacja;Silniki, marki, modele i historia motoryzacji - sprawdź, czy jesteś prawdziwym fanem czterech kółek
